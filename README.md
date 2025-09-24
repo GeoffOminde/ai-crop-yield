@@ -113,7 +113,6 @@ Sugarcane	    2010.7
 
 Cotton	      410.2
 
----
 ## 🌍 Ethical Reflection
 - Bias Risk: If dataset excludes rural smallholder farms, predictions may skew toward industrial farming.  
 
@@ -124,15 +123,5 @@ Cotton	      410.2
 
 ## 📢 Citation
 “AI can be the bridge between innovation and sustainability.” — UN Tech Envoy
-
-## ✅ Next Steps
-- Integrate weather, soil, and fertilizer features for richer predictions.  
-
-- Experiment with advanced models (XGBoost, Neural Networks).  
-
-- Deploy as an API (Flask/FastAPI) for real-world integration.  
-
-- Build a farmer-friendly dashboard with data visualizations.  
-
 
 ---
