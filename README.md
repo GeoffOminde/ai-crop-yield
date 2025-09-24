@@ -91,18 +91,26 @@ Example Predictions
 
 **Input:**
 
-Crop	Area	Production
-Rice	600	350
-Wheat	50	25
-Sugarcane	10	200
+Crop	Area	Production  
+
+Rice	600	350  
+
+Wheat	50	25  
+
+Sugarcane	10	200  
+
 Cotton	5	1
 
 **Output:**  
 
-Crop	Predicted Yield (Kg/ha)
-Rice	590.3
-Wheat	520.1
-Sugarcane	2010.7
+Crop	Predicted Yield (Kg/ha)  
+
+Rice	590.3  
+
+Wheat	520.1  
+
+Sugarcane	2010.7  
+
 Cotton	410.2
 
 ## 🌍 Ethical Reflection
