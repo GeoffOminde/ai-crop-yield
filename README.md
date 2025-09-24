@@ -30,6 +30,8 @@ ai-crop-yield/
 ├── results/               
 │   └── long_format_data.csv      # Processed dataset (long format)
 │
+├── screenshots/               
+│   └── 24.09.2025_16.51.45_REC.png  # Screenshots of the demo
 ├── PITCH_DECK.pdf                # Project presentation slides
 ├── README.md                     # Main documentation
 ├── REPORT.md                     # 1-page project summary
