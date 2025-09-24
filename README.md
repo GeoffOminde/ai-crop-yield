@@ -45,7 +45,7 @@ ai-crop-yield/
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/ai-crop-yield.git
-cd ai-sdg2-crop-yield
+cd ai-crop-yield
 ```
 ## 2. Create Virtual Environment & Install Dependencies
 ```bash
@@ -67,9 +67,9 @@ Option 2: Python Script
 python scripts/train_model.py
 ```
 This will:
-Load and reshape the dataset into long format (`Crop`, `Area`, `Production`, `Yield`)
-Train regression models
-Evaluate results (MSE, R²)
+Load and reshape the dataset into long format (`Crop`, `Area`, `Production`, `Yield`)/
+Train regression models/
+Evaluate results (MSE, R²)/
 Save outputs in `results`/
 
 ## 📊 Example Results
@@ -95,17 +95,17 @@ Sugarcane	2010.7
 Cotton	410.2
 
 ## 🌍 Ethical Reflection
-Bias Risk: If dataset excludes rural smallholder farms, predictions may skew toward industrial farming.
-Fairness: Ensure equal benefit across regions and crop types.
-Sustainability: Better yield forecasting reduces waste, strengthens food systems, and supports SDG 2.
+Bias Risk: If dataset excludes rural smallholder farms, predictions may skew toward industrial farming./
+Fairness: Ensure equal benefit across regions and crop types./
+Sustainability: Better yield forecasting reduces waste, strengthens food systems, and supports SDG 2./
 
 ## 📢 Citation
 “AI can be the bridge between innovation and sustainability.” — UN Tech Envoy
 
 ## ✅ Next Steps
-Integrate weather, soil, and fertilizer features for richer predictions.
-Experiment with advanced models (XGBoost, Neural Networks).
-Deploy as an API (Flask/FastAPI) for real-world integration.
-Build a farmer-friendly dashboard with data visualizations.
+Integrate weather, soil, and fertilizer features for richer predictions./
+Experiment with advanced models (XGBoost, Neural Networks)./
+Deploy as an API (Flask/FastAPI) for real-world integration./
+Build a farmer-friendly dashboard with data visualizations./
 
 ---
