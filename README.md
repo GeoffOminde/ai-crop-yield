@@ -14,28 +14,26 @@ The goal is to help farmers, policymakers, and researchers improve agricultural 
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Structure
 
 ai-crop-yield/
-│── data/
-│ └── crop_yield.csv # Raw dataset  
 │
-│── notebooks/
-│ └── crop_yield_analysis.ipynb # Jupyter Notebook (exploration + training)
+├── data/                  
+│   └── crop_yield.csv            # Original dataset
 │
-│── scripts/
-│ └── crop_yield_analysis.py # Python script for training
+├── notebooks/             
+│   └── crop_yield_model.ipynb    # Jupyter notebook for EDA & modeling
 │
-│── results/
-│ ├── long_format_data.csv # Restructured dataset
-│ 
-│ 
-│ 
+├── scripts/               
+│   └── crop_yield_predictor.py   # Python script for training & prediction
 │
-│── README.md # Documentation
-│── REPORT.md # 1-page project summary
-│── PITCH_DECK.pdf # Pitch slides for stakeholders
-│── requirements.txt # Dependencies
+├── results/               
+│   └── long_format_data.csv      # Processed dataset (long format)
+│
+├── PITCH_DECK.pdf                # Project presentation slides
+├── README.md                     # Main documentation
+├── REPORT.md                     # 1-page project summary
+├── requirements.txt              # Python dependencies
 
 
 ---
