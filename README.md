@@ -91,28 +91,29 @@ Example Predictions
 
 **Input:**
 
-Crop	Area	Production  
+Crop	       Area  Production  
 
-Rice	600	350  
+Rice	       600	    350  
 
-Wheat	50	25  
+Wheat  	      50	     25  
 
-Sugarcane	10	200  
+Sugarcane	    10	     200  
 
-Cotton	5	1
+Cotton	       5	     1
 
 **Output:**  
 
-Crop	Predicted Yield (Kg/ha)  
+Crop	     Predicted Yield (Kg/ha)  
 
-Rice	590.3  
+Rice	        590.3  
 
-Wheat	520.1  
+Wheat	        520.1  
 
-Sugarcane	2010.7  
+Sugarcane	    2010.7  
 
-Cotton	410.2
+Cotton	      410.2
 
+---
 ## 🌍 Ethical Reflection
 - Bias Risk: If dataset excludes rural smallholder farms, predictions may skew toward industrial farming.  
 
