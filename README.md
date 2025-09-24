@@ -15,7 +15,7 @@ The goal is to help farmers, policymakers, and researchers improve agricultural 
 ---
 
 ## 📂 Project Structure
-
+```
 ai-crop-yield/
 │
 ├── data/                  
@@ -34,7 +34,7 @@ ai-crop-yield/
 ├── README.md                     # Main documentation
 ├── REPORT.md                     # 1-page project summary
 ├── requirements.txt              # Python dependencies
-
+```
 
 ---
 
