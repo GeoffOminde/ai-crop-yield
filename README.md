@@ -18,7 +18,7 @@ The goal is to help farmers, policymakers, and researchers improve agricultural 
 
 ai-crop-yield/
 │── data/
-│ └── crop_yield.csv # Raw dataset
+│ └── crop_yield.csv # Raw dataset  
 │
 │── notebooks/
 │ └── crop_yield_analysis.ipynb # Jupyter Notebook (exploration + training)
@@ -67,27 +67,37 @@ Option 2: Python Script
 python scripts/train_model.py
 ```
 This will:
-Load and reshape the dataset into long format (`Crop`, `Area`, `Production`, `Yield`)/
-Train regression models/
-Evaluate results (MSE, R²)/
-Save outputs in `results`/
+Load and reshape the dataset into long format (`Crop`, `Area`, `Production`, `Yield`)  
+
+Train regression models  
+
+Evaluate results (MSE, R²)  
+
+Save outputs in `results`  
+
 
 ## 📊 Example Results
-Sample Metrics
-(Using Linear Regression on sample dataset)
+Sample Metrics  
+
+(Using Linear Regression on sample dataset)  
+
 MSE: 45.2
 R²: 0.89
 
-(Random Forest generally improves performance.)
-Example Predictions
-Input:
+(Random Forest generally improves performance.)  
+
+Example Predictions  
+
+Input:  
+
 Crop	Area	Production
 Rice	600	350
 Wheat	50	25
 Sugarcane	10	200
 Cotton	5	1
 
-Output:
+Output:  
+
 Crop	Predicted Yield (Kg/ha)
 Rice	590.3
 Wheat	520.1
@@ -95,17 +105,24 @@ Sugarcane	2010.7
 Cotton	410.2
 
 ## 🌍 Ethical Reflection
-Bias Risk: If dataset excludes rural smallholder farms, predictions may skew toward industrial farming./
-Fairness: Ensure equal benefit across regions and crop types./
-Sustainability: Better yield forecasting reduces waste, strengthens food systems, and supports SDG 2./
+Bias Risk: If dataset excludes rural smallholder farms, predictions may skew toward industrial farming.  
+
+Fairness: Ensure equal benefit across regions and crop types.  
+
+Sustainability: Better yield forecasting reduces waste, strengthens food systems, and supports SDG 2.  
+
 
 ## 📢 Citation
 “AI can be the bridge between innovation and sustainability.” — UN Tech Envoy
 
 ## ✅ Next Steps
-Integrate weather, soil, and fertilizer features for richer predictions./
-Experiment with advanced models (XGBoost, Neural Networks)./
-Deploy as an API (Flask/FastAPI) for real-world integration./
-Build a farmer-friendly dashboard with data visualizations./
+Integrate weather, soil, and fertilizer features for richer predictions.  
+
+Experiment with advanced models (XGBoost, Neural Networks).  
+
+Deploy as an API (Flask/FastAPI) for real-world integration.  
+
+Build a farmer-friendly dashboard with data visualizations.  
+
 
 ---
