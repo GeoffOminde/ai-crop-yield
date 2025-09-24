@@ -66,14 +66,15 @@ Option 2: Python Script
 ```bash
 python scripts/train_model.py
 ```
-This will:
-Load and reshape the dataset into long format (`Crop`, `Area`, `Production`, `Yield`)  
+This will:  
 
-Train regression models  
+- Load and reshape the dataset into long format (`Crop`, `Area`, `Production`, `Yield`)  
 
-Evaluate results (MSE, R²)  
+- Train regression models  
 
-Save outputs in `results`  
+- Evaluate results (MSE, R²)  
+
+- Save outputs in `results`  
 
 
 ## 📊 Example Results
@@ -81,8 +82,8 @@ Sample Metrics
 
 (Using Linear Regression on sample dataset)  
 
-MSE: 45.2
-R²: 0.89
+- MSE: 45.2
+- R²: 0.89
 
 (Random Forest generally improves performance.)  
 
@@ -105,24 +106,24 @@ Sugarcane	2010.7
 Cotton	410.2
 
 ## 🌍 Ethical Reflection
-Bias Risk: If dataset excludes rural smallholder farms, predictions may skew toward industrial farming.  
+- Bias Risk: If dataset excludes rural smallholder farms, predictions may skew toward industrial farming.  
 
-Fairness: Ensure equal benefit across regions and crop types.  
+- Fairness: Ensure equal benefit across regions and crop types.  
 
-Sustainability: Better yield forecasting reduces waste, strengthens food systems, and supports SDG 2.  
+- Sustainability: Better yield forecasting reduces waste, strengthens food systems, and supports SDG 2.  
 
 
 ## 📢 Citation
 “AI can be the bridge between innovation and sustainability.” — UN Tech Envoy
 
 ## ✅ Next Steps
-Integrate weather, soil, and fertilizer features for richer predictions.  
+- Integrate weather, soil, and fertilizer features for richer predictions.  
 
-Experiment with advanced models (XGBoost, Neural Networks).  
+- Experiment with advanced models (XGBoost, Neural Networks).  
 
-Deploy as an API (Flask/FastAPI) for real-world integration.  
+- Deploy as an API (Flask/FastAPI) for real-world integration.  
 
-Build a farmer-friendly dashboard with data visualizations.  
+- Build a farmer-friendly dashboard with data visualizations.  
 
 
 ---
